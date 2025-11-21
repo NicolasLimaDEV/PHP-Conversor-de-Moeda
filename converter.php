@@ -6,20 +6,19 @@
    <title>Conversor de Moeda</title>
    <link rel="stylesheet" href="style.css">
 </head>
-<body>   
+<body>
    <?= include 'header.php' ?>
 
    <section>
       <div class="card">
-         <h1>Conversor de Moeda</h1>
+         <h1>Resultado</h1>
 
-         <form action="converter.php" method="get">
-            <label for="moeda">Digite o valor em R$</label>
-            <input type="number" name="moeda" id="moeda">
+         <h3>Seus <span class="dinheiro">R$ 150,00</span> equivalem a <span class="dinheiro">US$ 100,00</span></h3>
+         <p>Cotação obtida diretamente do site do Banco do Brasil.</p>
 
-            <input id="btn-submit" type="submit" value="Converter">
-         </form>
+         <a class="btn-voltar" href="index.php">Voltar</a>
       </div>
    </section>
+   
 </body>
 </html>

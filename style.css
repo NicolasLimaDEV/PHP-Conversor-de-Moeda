@@ -1,49 +1,122 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-   --fundo: #f5f5f5;
-   --primary:#0250D3;
-   --white: #fff;
+:root {
+  --fundo: #f5f5f5;
+  --primary: #0250d3;
+  --white: #fff;
+  --curency: #6abd80;
 }
 
-body{
-   background-color: var(--fundo);
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  background-color: var(--fundo);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-a{
-   text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.header{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   height: 70px;
-   padding: 0px 30px;
-   background-color: var(--primary);
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0px 30px;
+  background-color: var(--primary);
 }
 
-.header h3{
-   display: flex;
-   flex-direction: column;
-   color: var(--white);
+.header h3 {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
 }
 
-.header span{
-   font-weight: 300;
-   font-size: 12px;
-   opacity: 0.8;
+.header span {
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 0.8;
 }
 
-.header .btn-linkedin{
-   color: var(--primary);
-   background-color: var(--white);
-   padding: 10px;
-   border-radius: 10px;
-   font-weight: 600;
+.header .btn-linkedin {
+  color: var(--primary);
+  background-color: var(--white);
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+
+section .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--white);
+  padding: 40px 20px;
+  border-radius: 15px;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 200px;
+}
+
+.card form input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--fundo);
+  outline: none;
+  transition: 0.2s all;
+}
+
+.card form input:focus {
+  border: 2px solid var(--primary);
+}
+
+#btn-submit {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.btn-voltar {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.dinheiro{
+  color: var(--curency);
 }
