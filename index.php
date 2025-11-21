@@ -7,7 +7,7 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>   
-   <?= include 'header.php' ?>
+   <?php include './components/header.php' ?>
 
    <section>
       <div class="card">
@@ -21,5 +21,7 @@
          </form>
       </div>
    </section>
+
+   <?php include './components/footer.php' ?>
 </body>
 </html>

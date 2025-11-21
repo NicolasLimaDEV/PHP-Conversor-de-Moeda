@@ -5,4 +5,4 @@
       </h3>
 
       <a class="btn-linkedin" href="https://www.linkedin.com/in/nicolaslimadev/" target="_blank">Linkedin</a>
-   </header>
+</header>
