@@ -25,6 +25,5 @@
    </section>
 
    <script src="validacao.js"></script>
-   <?php include './components/footer.php' ?>
 </body>
 </html>
