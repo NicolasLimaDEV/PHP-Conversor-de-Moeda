@@ -67,13 +67,13 @@ PHP-Conversor-de-Moeda/
 ## 🖼️ Screenshots do Projeto
 
 ### 📌 Tela inicial
-![Tela inicial](assets/screenshots/screenshot-1.png)
+![Tela inicial](assets/screenshots/Screenshot_1.png)
 
 ### 📌 Tela de erro (validação)
-![Tela de erro](assets/screenshots/screenshot-2.png)
+![Tela de erro](assets/screenshots/Screenshot_2.png)
 
 ### 📌 Tela com o valor convertido
-![Resultado convertido](assets/screenshots/screenshot-3.png)
+![Resultado convertido](assets/screenshots/Screenshot_3.png)
 
 ---
 
@@ -96,3 +96,4 @@ PHP-Conversor-de-Moeda/
 Criado por **Nicolas Lima**  
 GitHub: https://github.com/NicolasLimaDEV
 Linkedin: https://linkedin.com/in/nicolaslimadev
+
