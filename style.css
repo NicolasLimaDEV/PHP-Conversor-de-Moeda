@@ -9,6 +9,9 @@
   --primary: #0250d3;
   --white: #fff;
   --curency: #6abd80;
+  --erroBG: #F8D7DA;
+  --erroText: #902A46;
+
 }
 
 body {
@@ -75,7 +78,6 @@ section .card {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 200px;
 }
 
 .card form input {
@@ -119,4 +121,19 @@ section .card {
 
 .dinheiro{
   color: var(--curency);
+}
+
+/* Mensagem de Erro */
+.msg-erro{
+  display: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--erroBG);
+  color: var(--erroText);
+  transition: .2s all ;
+}
+
+.msg-erro.active{
+  display: block;
 }

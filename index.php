@@ -13,15 +13,18 @@
       <div class="card">
          <h1>Conversor de Moeda</h1>
 
-         <form action="converter.php" method="get">
+         <form id="form" action="converter.php" method="get">
             <label for="moeda">Digite o valor em R$</label>
             <input type="number" name="moeda" id="moeda">
+
+            <p class="msg-erro">Você precisa digitar um valor</p>
 
             <input id="btn-submit" type="submit" value="Converter">
          </form>
       </div>
    </section>
 
+   <script src="validacao.js"></script>
    <?php include './components/footer.php' ?>
 </body>
 </html>
